@@ -1,23 +1,11 @@
 {
     "name": "modulex-node",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/node.git"
-    },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "dependencies": {
         "modulex": "*",
-        "modulex-dom": "modulex-dom#1.x",
-        "modulex-anim": "modulex-anim#1.x",
-        "modulex-util": "modulex-util#1.x",
-        "modulex-event-dom": "modulex-event-dom#1.x"
+        "modulex-dom": "modulex/dom#1.x",
+        "modulex-anim": "modulex/anim#1.x",
+        "modulex-util": "modulex/util#1.x",
+        "modulex-event-dom": "modulex/event-dom#1.x"
     }
 }
